@@ -33,7 +33,7 @@ for caracter, cantidad in resultado.items():
     print(f"espacios {cantidad} veces")
   else:
     print(f" '{caracter}'  {cantidad} veces")
-
+caracter()
 #Ejercicio 3
 
 def programa_fruta():
@@ -63,5 +63,6 @@ def programa_fruta():
         if otra not in ("si"):
             print("Gracias por su compra.")
             break
+
 
 programa_fruta()
